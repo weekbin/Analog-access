@@ -11,12 +11,12 @@
 ## 使用方式
 在使用之前，需要安装chromedriver和chrome浏览器，因为涉及到chromedriver和Chrome每个小伙伴的版本不同，所以这里请大家自行安装。（这一点很重要，没有这个环境，脚本无法运行；如果觉得麻烦，可以自行用request库来写请求）    
 如果你的电脑上已经安装了git，可以使用如下命令,如果没有git你可以直接下载压缩包到本地    
-`mkdir analog-access`
-`cd analog-access/`
-`git clone https://github.com/weekbin/Analog-access.git`
+`mkdir analog-access`    
+`cd analog-access/`    
+`git clone https://github.com/weekbin/Analog-access.git`    
 请确保你的电脑安装了python环境以及pip    
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`    
 在正式运行之前，请在url.py中调整url去访问你想访问的地址。    
 最后运行即可    
-`python package.py`
+`python package.py`    
 如需退出，直接CTRL + C退出即可    
