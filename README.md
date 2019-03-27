@@ -27,19 +27,23 @@
 ## 使用方式
 在使用之前，需要安装chromedriver和chrome浏览器，因为涉及到chromedriver和Chrome每个小伙伴的版本不同，所以这里请大家自行安装。
 
-#### 如果你的电脑上已经安装了git，可以使用如下命令,如果没有git你可以直接下载压缩包到本地    
+#### 如果你的电脑上已经安装了git，可以使用如下命令，如果没有git你可以直接下载压缩包到本地    
 ```bash
 mkdir analog-access
 cd analog-access/
 git clone https://github.com/weekbin/Analog-access.git
 ```
-#### 请确保你的电脑安装了python环境以及pip, 建议使用虚拟环境    
+#### 请确保你的电脑安装了python环境以及pip，建议使用虚拟环境    
 ```bash
 pip install -r requirements.txt
 ```
 #### 在正式运行之前，请在url.py中调整url去访问你想访问的地址。    
 ```bash
-尚未写好的代码块
+url_list = [
+    "http://www.weekbin.xyz",
+    "http://www.weekbin.xyz/register",
+    "http://www.weekbin.xyz/login"
+    ]
 ```
 #### 最后运行即可    
 ```bash
