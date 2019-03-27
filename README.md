@@ -33,7 +33,7 @@ mkdir analog-access
 cd analog-access/
 git clone https://github.com/weekbin/Analog-access.git
 ```
-#### 请确保你的电脑安装了python环境以及pip    
+#### 请确保你的电脑安装了python环境以及pip, 建议使用虚拟环境    
 ```bash
 pip install -r requirements.txt
 ```
