@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 #### 最后运行即可    
 ```bash
-python package.py
+python main.py
 ``` 
 #### 如需退出，直接CTRL + C退出即可    
 
